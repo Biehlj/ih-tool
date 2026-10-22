@@ -1,7 +1,7 @@
 {
   "name": "ih-tool",
   "version": "0.1.0",
-  "homepage": "https://biehlj.github.io/ih-tool/#",
+  "homepage": "https://biehlj.github.io/ih-tool",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
@@ -46,7 +46,7 @@
   },
   "scripts": {
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -b deployment",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
